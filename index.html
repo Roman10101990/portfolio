@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+<body>
+      <header>
+          <div class="logo">Portfolio</div>
+          <div class="toggle"  onclick="menuBg();"></div>
+          <ul class="menu" >
+              <li><a href="#home" onclick="menuBg();">Home</a></li>
+              <li><a href="#about" onclick="menuBg();">About</a></li>
+              <li><a href="#services" onclick="menuBg();">Services</a></li>
+              <li><a href="#work" onclick="menuBg();">Work</a></li>
+              <li><a href="#contact" onclick="menuBg();">Contact</a></li>
+
+          </ul>
+      </header>
+      <section class="banner" id="home">
+          <div class="textBox">
+              <h2>Hello, I am <br/><span>Roman Pazyuk!</span></h2>
+              <h3>I'm Front End Web Developer </h3>
+              <a href="#about" class="btn">About <span>M</span>e</a>
+          </div>
+      </section>
+      <section class="about" id="about">
+          <div class="heading">
+              <h2>About Me</h2>
+          </div>
+          <div class="content">
+              <div class="contentBox">
+                  <h3>I'm Front End Web Developer</h3>
+                  <p> Some Text</p>
+              </div>
+              <div class="w50">
+                  <img class="image" src="img/img1.jpg"/> 
+              </div>
+          </div>
+      </section>
+      <section class="services" id="services">
+          <div class="heading white">
+              <h2>Services</h2>
+          </div>
+          <div class="content">
+              <div class="servicesBox">
+                  <img src="img/icon1.png" alt="icon1" />
+                  <h2>Web Development</h2>
+                  <p>Some text</p>
+              </div>
+              <div class="servicesBox">
+                  <img src="img/icon2.png" alt="icon1" />
+                  <h2>Web Development</h2>
+                  <p>Some text</p>
+              </div>
+              <div class="servicesBox">
+                  <img src="img/icon3.png" alt="icon1" />
+                  <h2>Android App</h2>
+                  <p>Some text</p>
+              </div>
+              <div class="servicesBox">
+                  <img src="img/icon4.png" alt="icon1" />
+                  <h2>Photography</h2>
+                  <p>Some text</p>
+              </div>
+              <div class="servicesBox">
+                  <img src="img/icon5.png" alt="icon1" />
+                  <h2>Content Writing</h2>
+                  <p>Some text</p>
+              </div>
+              <div class="servicesBox">
+                  <img src="img/icon6.png" alt="icon1" />
+                  <h2>Video Editing</h2>
+                  <p>Some text</p>
+              </div>
+          </div>
+      </section>
+      <section class="work" id="work">
+          <div class="heading">
+              <h2>My Last Works</h2>
+          </div>
+          <div class="content">
+              <div class="workBox">
+                  <img src="img/product1.jpg" alt="icon1" />
+                  <h2>Project1</h2>
+                  <p>Some text</p>
+              </div>
+              <div class="workBox">
+                  <img src="img/product2.jpg" alt="icon1" />
+                  <h2>Project2</h2>
+                  <p>Some text</p>
+              </div>
+              <div class="workBox">
+                  <img src="img/product3.jpg" alt="icon1" />
+                  <h2>Project3</h2>
+                  <p>Some text</p>
+              </div>
+              <div class="workBox">
+                  <img src="img/product4.jpg" alt="icon1" />
+                  <h2>Project4</h2>
+                  <p>Some text</p>
+              </div>
+          </div>
+      </section>
+      <section class="contact" id="contact">
+          <div class="heading white">
+              <h2><span>C</span>ontacts</h2>
+          </div>
+          <div class="contactBox">
+              <div class="box">
+                  <div class="icon">
+                      <i class="fa fa-map-marker"></i>
+                  </div>
+                  <div class="text">
+                      <h3>Address</h3>
+                      <p>
+                          Ukraine<br />
+                          city Lviv<br />
+                          57905
+                      </p>
+                  </div>
+                  <div class="icon">
+                      <i class="fas fa-mail-bulk"></i>
+                  </div>
+                  <div class="text">
+                      <h3>Email</h3>
+                      <p>JackSparrow@gmail.com</p>
+                  </div>
+                  <div class="icon">
+                  <i class="fa fa-phone"></i>
+                  </div>
+                  <div class="text">
+                      <h3>Phone</h3>
+                      <p>  +38-033-094590 </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+          <script src="index.js"></script>
+</body>
+</html>
